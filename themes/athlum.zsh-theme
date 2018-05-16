@@ -48,7 +48,7 @@ LCHAR='➤'
 #LCHAR='🇺🇸 ' LCHAR_WIDTH=%2G
 
 #PROMPT='%{$fg[48]%}%c %{$fg_bold[green]%}➜ %{$reset_color%}'
-PROMPT='%{$FG[141]%}$(box_name) %{$FG[141]%}[%*] %{$FG[048]%}%c %{$FG[033]%}%{$LCHAR$LCHAR_WIDTH%} %{$reset_color%}'
+PROMPT='%{$FG[248]%}$(box_name) %{$FG[248]%}[%*] %{$FG[048]%}%c %{$FG[033]%}%{$LCHAR$LCHAR_WIDTH%} %{$reset_color%}'
 RPROMPT='$(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}[%{$FG[048]%}"
